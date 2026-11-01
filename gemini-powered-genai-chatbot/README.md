@@ -46,14 +46,26 @@ gemini-powered-genai-chatbot/
 
 ### 1. Configure the Gemini API key
 
-Create a Gemini API key in Google AI Studio, then open `backend/.env` and set:
+Create a Gemini API key in Google AI Studio, then create `backend/.env` from the included template:
 
 ```env
 GEMINI_API_KEY=your_actual_gemini_api_key
 MODEL_NAME=gemini-3.8-flash
 ```
 
-The `.env` file is intentionally excluded from Git. Never commit or share your real API key.
+From the `gemini-powered-genai-chatbot` project directory, copy the template using the command for your shell:
+
+```powershell
+# Windows PowerShell
+Copy-Item backend/.env.example backend/.env
+```
+
+```bash
+# macOS / Linux
+cp backend/.env.example backend/.env
+```
+
+Then replace the placeholder value in `backend/.env` with your API key. The `.env` file is intentionally excluded from Git. Never commit or share your real API key.
 
 ### 2. Create a virtual environment
 
