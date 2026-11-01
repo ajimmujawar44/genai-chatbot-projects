@@ -1,6 +1,6 @@
 # GenAI Chatbot Projects
 
-This repository contains the existing GenAI Chatbot SaaS application and two standalone chatbot projects.
+This repository contains two standalone chatbot projects.
 
 <p align="center">
   <img src="GenAI_%20AI%20chatbot%20SaaS%20launch.png" alt="GenAI Chatbot SaaS project banner" width="100%">
@@ -9,10 +9,6 @@ This repository contains the existing GenAI Chatbot SaaS application and two sta
 [Watch the GenAI Chatbot SaaS demo](GenAI%20Chatbot%20SaaS%20-%20Google%20Chrome%202026-07-04%2016-56-29.mp4)
 
 ## Projects
-
-### Existing GenAI Chatbot SaaS
-
-The original application remains in the repository root. Its frontend and backend are in `frontend/` and `backend/`.
 
 ### Simple FastAPI Chatbot Starter
 
@@ -35,8 +31,6 @@ A web-based chatbot with a FastAPI backend powered by Google's Gemini API.
 
 ```text
 .
-├── backend/                         # Existing SaaS backend
-├── frontend/                        # Existing SaaS frontend
 ├── simple-fastapi-chatbot-starter/
 ├── gemini-powered-genai-chatbot/
 ├── GenAI_ AI chatbot SaaS launch.png
